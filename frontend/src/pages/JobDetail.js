@@ -106,19 +106,27 @@ const JobDetail = () => {
                         <tbody>
                             <tr className="border-b border-black">
                                 <td className="p-3 bg-yellow-200 w-1/2">Apply Online Link</td>
-                                <td className="p-3"><a href={job.apply_link} target="_blank" className="text-blue-700 underline">Click Here</a></td>
+                                <td className="p-3">
+                                    <a href={job.apply_link} target="_blank" rel="noreferrer" className="text-blue-700 underline">Click Here</a>
+                                </td>
                             </tr>
                             <tr className="border-b border-black">
                                 <td className="p-3 bg-yellow-200">Download Official Notification</td>
-                                <td className="p-3"><a href={job.pdf_link} target="_blank" className="text-blue-700 underline">Click Here</a></td>
+                                <td className="p-3">
+                                    <a href={job.pdf_link} target="_blank" rel="noreferrer" className="text-blue-700 underline">Click Here</a>
+                                </td>
                             </tr>
                             <tr className="border-b border-black">
                                 <td className="p-3 bg-yellow-200">Check Syllabus / Pattern</td>
-                                <td className="p-3"><a href={job.syllabus_link} target="_blank" className="text-blue-700 underline">Click Here</a></td>
+                                <td className="p-3">
+                                    <a href={job.syllabus_link} target="_blank" rel="noreferrer" className="text-blue-700 underline">Click Here</a>
+                                </td>
                             </tr>
                             <tr>
-                                <td className="p-3 bg-yellow-200">BPSC Official Website</td>
-                                <td className="p-3"><a href={job.official_site} target="_blank" className="text-blue-700 underline">Click Here</a></td>
+                                <td className="p-3 bg-yellow-200">Official Website</td>
+                                <td className="p-3">
+                                    <a href={job.official_site} target="_blank" rel="noreferrer" className="text-blue-700 underline">Click Here</a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
