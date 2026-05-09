@@ -51,9 +51,9 @@ const Dashboard = () => {
             {/* Header Section */}
             <header className="bg-[#800000] p-6 text-center text-white border-b-4 border-black">
                 <h1 className="text-4xl md:text-5xl font-black italic tracking-tighter uppercase">
-                    ROJGAR SOLUTION <span className="text-blue-400 font-normal">AI</span>
+                    ROJGAR SCHOOL <span className="text-blue-400 font-normal">AI</span>
                 </h1>
-                <p className="text-sm font-bold mt-1 tracking-widest uppercase">WWW.ROJGARSOLUTIONAI.COM</p>
+                <p className="text-sm font-bold mt-1 tracking-widest uppercase">WWW.ROJGAR.SCHOOL.CO.IN</p>
             </header>
 
             {/* Navbar */}
@@ -126,8 +126,9 @@ const Dashboard = () => {
 
                 {/* Footer Section */}
                 <footer className="mt-10 bg-[#800000] text-white p-8 text-center border-t-4 border-black">
-                    <p className="font-black text-xl mb-1 italic">© 2024 ROJGAR SOLUTION AI</p>
+                    <p className="font-black text-xl mb-1 italic">© 2024 ROJGAR SCHOOL AI</p>
                     <p className="text-xs italic text-gray-300">Direct Official Contractual Notifications Aggregator</p>
+                    <p className="font-black text-xl mb-1 italic">© 91 9229384100</p>
                 </footer>
             </div>
         </div>
