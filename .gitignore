@@ -1,0 +1,5 @@
+node_modules/
+backend/rojgar_solution.db
+backend/manual_rojgar.db
+backend/__pycache__/
+.env
